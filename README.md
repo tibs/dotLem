@@ -1,13 +1,23 @@
 # Playing with Lem
 
+It should work to clone this repository as `~/.lem` - or at least that's my hope.
 
 ## Installing on my Mac
 
 (M1, current OS)
 
-In order to get Lem installed, I needed to follow the instructions in
-Lem issue #1145,
-[Cannot install Lem via Roswell on macOS due to error related to qlot](https://github.com/lem-project/lem/issues/1145)
+Unfortunately, installing from the binary release package didn't work (2024-09-10), and anyway that's for 2.1, which isn't particularly up-to-date.
+
+Following the instructions at https://lem-project.github.io//installation/sdl2/macos/ for installation from scratch
+
+* `brew install sbcl sdl2 sdl2_image sdl2_ttf`
+
+Unfortunately, installing qlot with
+
+> `curl -L https://qlot.tech/installer | bash`
+
+failed. Luckily, following the instructions in Lem issue #1145,
+[Cannot install Lem via Roswell on macOS due to error related to qlot](https://github.com/lem-project/lem/issues/1145) worked.
 
 Specifically, from [this comment](https://github.com/lem-project/lem/issues/1145#issuecomment-1845593394):
 
