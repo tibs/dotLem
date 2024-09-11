@@ -1,3 +1,11 @@
+# The following are files that get created in a .lem directory
+# which I do not wish to commit
+config.lisp
+history/
+lem-site-init.asd
+
+# The following are the standard things that GitHub suggests to ignore
+# for Common Lisp projects
 *.FASL
 *.fasl
 *.lisp-temp
