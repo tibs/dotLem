@@ -1,10 +1,12 @@
 # Playing with Lem
 
+Lem: https://github.com/lem-project/lem and https://lem-project.github.io/
+
 It should work to clone this repository as `~/.lem` - or at least that's my hope.
 
 ## Installing on my Mac
 
-(M1, current OS)
+(M1, current OS as of September 2024)
 
 Unfortunately, installing from the binary release package didn't work (2024-09-10), and anyway that's for 2.1, which isn't particularly up-to-date.
 
