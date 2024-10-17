@@ -1,8 +1,4 @@
-(in-package :lem-user)
-
 (lem-vi-mode:vi-mode)
-
-(load-theme "classic-light")
 
 ;; Move the M-x line away from the middle of the screen
 ;; From https://news.ycombinator.com/item?id=41357409 and also
@@ -13,5 +9,7 @@
 
 
 ;; Load main theme
+;;(load-library "base16-themes")
 ;;(load-theme "chalk")
+;;(load-theme "classic-light")
 
